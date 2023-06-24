@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sd-prompt-helper/static/css/main.e6c13ad2.css",
+    "main.js": "/sd-prompt-helper/static/js/main.3aa205a3.js",
+    "static/js/787.3660a69a.chunk.js": "/sd-prompt-helper/static/js/787.3660a69a.chunk.js",
+    "index.html": "/sd-prompt-helper/index.html",
+    "main.e6c13ad2.css.map": "/sd-prompt-helper/static/css/main.e6c13ad2.css.map",
+    "main.3aa205a3.js.map": "/sd-prompt-helper/static/js/main.3aa205a3.js.map",
+    "787.3660a69a.chunk.js.map": "/sd-prompt-helper/static/js/787.3660a69a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3aa205a3.js"
+  ]
+}
