@@ -64,6 +64,7 @@ root.render(
             variant="soft"
             color="info" 
             target="_blank"
+            rel="noreferrer"
             sx={{ '--Link-gap': '0.5rem', pr: 1, pl: 1, mr: 1 }}
             >
               greataiprompts
@@ -74,6 +75,7 @@ root.render(
             variant="soft"
             color="info" 
             target="_blank"
+            rel="noreferrer"
             sx={{ '--Link-gap': '0.5rem', pr: 1, pl: 1, mr: 1 }}
             >
               openai
@@ -84,6 +86,7 @@ root.render(
             variant="soft"
             color="info" 
             target="_blank"
+            rel="noreferrer"
             sx={{ '--Link-gap': '0.5rem', pr: 1, pl: 1, mr: 1 }}
             >
               civitai
@@ -94,6 +97,7 @@ root.render(
             variant="soft"
             color="info" 
             target="_blank"
+            rel="noreferrer"
             sx={{ '--Link-gap': '0.5rem', pr: 1, pl: 1, mr: 1 }}
             >
               mui
