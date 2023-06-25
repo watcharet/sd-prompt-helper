@@ -108,6 +108,10 @@ export default function IconlessCheckbox() {
             'high resolution',
             '8k',
             'HDR',
+            'realistic',
+            'photorealistic',
+            'ultrahigh-res',
+            'hyperdetailed',
           ].map((item, index) => (
             <ListItem key={item}>
               <Checkbox
@@ -140,7 +144,6 @@ export default function IconlessCheckbox() {
             'detailed hair',
             'beautiful face',
             'ultra detailed eyes',
-            'hyperdetailed',
             'outdoors',
             'looking at viewer',
           ].map((item, index) => (
@@ -248,8 +251,6 @@ export default function IconlessCheckbox() {
         >
           {[
             'close-up',
-            'extreme close-up',
-            'medium close-up',
             'medium shot',
             'long shot',
             'medium full shot',
@@ -265,7 +266,6 @@ export default function IconlessCheckbox() {
             'from behind',
             'from above',
             'from below',
-            'straight on',
             'bilateral symmetry',
             'overhead shot',
             'high angle',

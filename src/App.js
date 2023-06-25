@@ -111,9 +111,38 @@ export default function IconlessCheckbox() {
             'greyscale',
             'blurry',
             'painting',
+            'sketches',
             'cartoon',
             'draft',
             '3d',
+          ].map((item, index) => (
+            <ListItem key={item}>
+              <Checkbox
+                size="sm"
+                overlay
+                disableIcon
+                variant="soft"
+                label={item.charAt(0).toLocaleUpperCase() + item.slice(1).toLocaleLowerCase()}
+                onChange={() => handleCheckboxChange(item)}
+                checked={checkedItems[item] || false}
+              />
+            </ListItem>
+          ))}
+        </List>
+
+        {/* Objective */}
+        <Typography id="negative" level="body2" fontWeight="m" mt={2} mb={1}>
+          Objective
+        </Typography>
+        <List
+          orientation="horizontal"
+          wrap
+          sx={{
+            '--List-gap': '8px',
+            '--ListItem-radius': '20px',
+          }}
+        >
+          {[
             'ugly',
             'deformed',
             'bad anatomy',
@@ -125,6 +154,10 @@ export default function IconlessCheckbox() {
             'poorly drawn hands',
             'missing arms',
             'missing legs',
+            'skin spots',
+            'acnes',
+            'skin blemishes',
+            'age spot',
           ].map((item, index) => (
             <ListItem key={item}>
               <Checkbox
